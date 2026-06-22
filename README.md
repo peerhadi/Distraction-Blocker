@@ -60,18 +60,6 @@ about:debugging#/runtime/this-firefox
 
 ---
 
-## 📁 Recommended structure
-
-extension/
-│
-├── manifest.json
-├── content.js
-├── background.js
-├── detector.js   (main logic)
-└── popup.html
-
----
-
 ## 🧪 Example usage in extension
 
 In content.js:
