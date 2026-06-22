@@ -35,19 +35,6 @@ Even supports typos:
 
 ---
 
-## 📦 Core Function
-
-Function name:
-isDistraction(input)
-
-### Example usage:
-
-isDistraction("man utd vs liverpool"); // true  
-isDistraction("javascript promises");   // true  
-isDistraction("how to cook rice");      // false  
-
----
-
 ## 🦊 Firefox Setup
 
 ### 1. Load extension
@@ -57,16 +44,6 @@ isDistraction("how to cook rice");      // false
 about:debugging#/runtime/this-firefox
 3. Click "Load Temporary Add-on"
 4. Select your manifest.json
-
----
-
-## 🧪 Example usage in extension
-
-In content.js:
-
-if (isDistraction(document.body.innerText)) {
-  console.log("⚠️ Distraction content detected");
-}
 
 ---
 
