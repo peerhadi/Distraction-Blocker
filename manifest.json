@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Distraction Blocker (Firefox)",
+  "version": "1.0",
+  "description": "Blocks distracting Google searches",
+
+  "permissions": ["tabs", "https://www.google.com/search*"],
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/search*"],
+      "js": ["logic.js", "content.js"]
+    }
+  ]
+}
